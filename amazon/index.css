@@ -1,3 +1,7 @@
 header {
-    margin-top:-10 ;
+    margin-top:-30 ;
+    background-color: #FFF159;
+}
+header h1 {
+    text-align: center;
 }
