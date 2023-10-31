@@ -1,7 +1,53 @@
+body{
+    margin-left: 0
+}
 header {
-    margin:-25 -7 auto -7;
+    margin-top:-25 ;
+    border: 1px solid black;
+
     background-color: #FFF159;
 }
 header h1 {
-    text-align: center;
+    text-align: left;
+    margin-top: 25
+}
+#caixa {
+    height: 50px;
+    width: 500px;
+    margin-top: 25px;
+    font-size:20px;
+}
+#caixa::placeholder{
+    font-size: 20px;
+}
+#cabeca {
+    display: flex; /* Torna o contêiner um flex container */
+    align-items: center; /* Alinha verticalmente os elementos ao centro */
+}
+
+#cabeca h1 {
+    margin-right: 20px;
+    margin-left: 5px;
+}
+#nav{
+    margin-left: 0;
+    width: 300px;
+    height: 650px;
+    float: left;
+    background-color: #FFF159;
+}
+#principal {
+    height: 650px;
+    background-color: lightgrey;
+}
+.produto {
+    width:20%; /* Define a largura desejada para cada produto */
+    display: inline-block; /* Torna as divs produtos exibidas em linha */
+    margin: 1%; /* Adiciona margens entre os produtos para espaçamento */
+    text-align: center; /* Centraliza o conteúdo dentro de cada produto */
+}
+
+.produto img {
+    max-width: 100%; /* Garante que a imagem não se estenda além da largura do contêiner */
+    border: 2px solid black
 }
