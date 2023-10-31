@@ -1,10 +1,7 @@
 header {
-    margin-top:-30 ;
+    margin:-25 -7 auto -7;
     background-color: #FFF159;
 }
 header h1 {
     text-align: center;
-}
-nav {
-    background-color: #f00;
 }
