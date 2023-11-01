@@ -1,0 +1,14 @@
+body{
+    margin-top: 0px
+}
+#lateral{
+    margin-top: -20px;
+    margin-right: 0px;
+    width: 400px;
+    height: 650px;
+    float: right;
+    background-color: #FFF159;
+    border: 2px solid black;
+    border-right: 0px;
+    box-shadow: -3px -3px 5px 0px rgba(0, 0, 0, 0.5);
+}
