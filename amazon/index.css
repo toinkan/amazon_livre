@@ -3,8 +3,8 @@ body{
 }
 header {
     margin-top:-25 ;
-    border: 1px solid black;
-
+    border: 2px solid #333; /* Borda sólida */
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
     background-color: #FFF159;
 }
 header h1 {
@@ -32,18 +32,20 @@ header h1 {
 #nav{
     margin-left: 0;
     width: 300px;
-    height: 650px;
+    height: 660;
     float: left;
     background-color: #FFF159;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+
 }
 #principal {
-    height: 650px;
+    height: 660px;
     background-color: lightgrey;
 }
 .produto {
     width:20%; /* Define a largura desejada para cada produto */
     display: inline-block; /* Torna as divs produtos exibidas em linha */
-    margin: 1%; /* Adiciona margens entre os produtos para espaçamento */
+    margin: 20px; /* Adiciona margens entre os produtos para espaçamento */
     text-align: center; /* Centraliza o conteúdo dentro de cada produto */
 }
 
