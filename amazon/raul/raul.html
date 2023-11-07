@@ -1,0 +1,88 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="raul.css" type="text/css" media="all" />
+    <title>amazon livre</title>
+    <script>
+         function img01 (){
+    document.getElementById("trocarimg").src="raul_frenteG.jpg";
+}
+function img02 (){
+    document.getElementById("trocarimg").src="raul_lado1G.jpg";
+}
+function img03 (){
+    document.getElementById("trocarimg").src="raul_lado2G.jpg";
+}
+    </script>
+</head>
+<body>
+    <header class="amlivre">
+        <div class="cabeca">
+         <h1>amazon livre</h1>
+<div class="group">
+  <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+  <input placeholder="Search" type="search" class="input">
+</div>
+        </div>
+    </header>
+
+    <div id="container">
+        <div id="imagem">
+            <ul>
+                <li>
+                    <img src="../imagens/raul_frente.jpg" alt="cor verde" onmouseenter="img01();">
+                </li>
+                <li>
+                    <img src="../imagens/raul_lado1.jpg" alt="cor azul" onmouseenter="img02();">
+                </li>  
+                <li>
+                    <img src="../imagens/raul_lado2.jpg" alt="cor preto" onmouseenter="img03();">
+                </li>
+            </ul>
+            <img src="../imagens/raul_frenteG.jpg" alt="" id="trocarimg">
+        </div>
+        <div id="info">
+            <div id="favorito">
+                <label class="container">
+  <input type="checkbox">
+  <svg id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M16.4,4C14.6,4,13,4.9,12,6.3C11,4.9,9.4,4,7.6,4C4.5,4,2,6.5,2,9.6C2,14,12,22,12,22s10-8,10-12.4C22,6.5,19.5,4,16.4,4z"></path></svg>
+</label>
+            </div>
+            <h1 class="informa">Raul</h1>
+            <h2 class="informa">o alejado mental</h2>
+            <div class="rating" class="informa">
+              <input value="5" name="rating" id="star5" type="radio">
+              <label for="star5"></label>
+              <input value="4" name="rating" id="star4" type="radio">
+              <label for="star4"></label>
+              <input value="3" name="rating" id="star3" type="radio">
+              <label for="star3"></label>
+              <input value="2" name="rating" id="star2" type="radio">
+              <label for="star2"></label>
+              <input value="1" name="rating" id="star1" type="radio">
+              <label for="star1"></label>
+            </div>
+
+            <p class="informa" id="preco">R$ 4,32 </p>
+            <p class="informa" id="frete">frete: R$7</p>
+            <p class="informa">o que você precisa saber sobre este produto:</p>
+            <ul class="informa">
+                <li>pobre</li>
+                <li>desprovido de educação</li>
+                <li>nasceu com o pecado da gula</li>
+                <li><del>micro pênis</deç></li>
+            </ul>
+        </div>
+        <div id="compra" align="center">
+           <button>comprar</button>
+           <button id="carrinho">adicionar ao carrinho</button>
+           <p id="info-car">
+               &radic; quantidade disponível: 1(infelizmente)</br>
+               &radic; devolução indisponível</br>
+               &radic; garantia indisponível</br>
+           </p>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
