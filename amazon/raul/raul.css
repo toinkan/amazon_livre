@@ -205,3 +205,7 @@ button:active {
     float: right;
     margin:20px 20px auto auto;
 }
+a {
+  color: #000000;
+  text-decoration: none;
+}
