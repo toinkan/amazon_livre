@@ -3,17 +3,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="raul.css" type="text/css" media="all" />
     <title>amazon livre</title>
-    <script>
-         function img01 (){
-    document.getElementById("trocarimg").src="raul_frenteG.jpg";
-}
-function img02 (){
-    document.getElementById("trocarimg").src="raul_lado1G.jpg";
-}
-function img03 (){
-    document.getElementById("trocarimg").src="raul_lado2G.jpg";
-}
-    </script>
+    <script src="raul.js"></script>
 </head>
 <body>
     <header class="amlivre">
@@ -27,20 +17,22 @@ function img03 (){
     </header>
 
     <div id="container">
+
         <div id="imagem">
             <ul>
                 <li>
-                    <img src="../imagens/raul_frente.jpg" alt="cor verde" onmouseenter="img01();">
+                    <img src="raul_frente.jpg" alt="cor verde" onmouseenter="img01();">
                 </li>
                 <li>
-                    <img src="../imagens/raul_lado1.jpg" alt="cor azul" onmouseenter="img02();">
+                    <img src="Raul_lado1.jpg" alt="cor azul" onmouseenter="img02();">
                 </li>  
                 <li>
-                    <img src="../imagens/raul_lado2.jpg" alt="cor preto" onmouseenter="img03();">
+                    <img src="Raul_lado2.jpg" alt="cor preto" onmouseenter="img03();">
                 </li>
             </ul>
-            <img src="../imagens/raul_frenteG.jpg" alt="" id="trocarimg">
+            <img align="right" src="raul_frenteG.jpg" alt="imagem alterada por JS" id="trocarimg">
         </div>
+
         <div id="info">
             <div id="favorito">
                 <label class="container">
