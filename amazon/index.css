@@ -2,53 +2,15 @@ body{
     margin-left: 0
 }
 header {
-    margin:-25 -7 auto -7;
-    background-color: #FFD700;
-    height: 100px;
+    margin-top:-25 ;
+    border: 2px solid #333; /* Borda sólida */
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color: #FFF159;
 }
 header h1 {
-    float: left;
-    margin: 30px;
+    text-align: left;
+    margin-top: 25
 }
-.group {
-    display: flex;
-    line-height: 28px;
-    position: relative;
-    padding-top: 30px;
-    margin: 0 0 auto;
-   }
-.input {
-    width: 500px;
-    height: 40px;
-    line-height: 28px;
-    padding: 0 1rem;
-    padding-left: 2.5rem;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    outline: none;
-    background-color: #f3f3f4;
-    color: #0d0c22;
-    transition: .3s ease;
-   }
-   
-   .input::placeholder {
-    color: #9e9ea7;
-   }
-   
-   .input:focus, input:hover {
-    outline: none;
-    border-color: rgba(234,76,137,0.4);
-    background-color: #fff;
-    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
-   }
-   .icon {
-    position: absolute;
-    left: 1rem;
-    fill: #9e9ea7;
-    width: 1rem;
-    height: 1rem;
-    margin: 11px auto;
-   }
 #caixa {
     height: 50px;
     width: 500px;
@@ -70,14 +32,14 @@ header h1 {
 #nav{
     margin-left: 0;
     width: 300px;
-    height: 100%;
+    height: 660;
     float: left;
-    background-color: #FFD700;
+    background-color: #FFF159;
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
 
 }
 #principal {
-    height: 100%;
+    height: 660px;
     background-color: lightgrey;
 }
 .produto {
@@ -90,12 +52,4 @@ header h1 {
 .produto img {
     max-width: 100%; /* Garante que a imagem não se estenda além da largura do contêiner */
     border: 2px solid black
-}
-a {
-    color: #000000;
-    text-decoration: none;
-  }
-
-p#latera a{
-    margin: 10px;
 }
