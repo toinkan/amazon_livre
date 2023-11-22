@@ -15,7 +15,7 @@ body, html {
     width: 400px;
     height: 100vh;
     float: right;
-    background-color: #FFF159;
+    background-color: #FFD700;
     border: 2px solid black;
     border-right: 0px;
     box-shadow: -3px -3px 5px 0px rgba(0, 0, 0, 0.5);
@@ -32,7 +32,7 @@ body, html {
 #login_box{
     width: 350px;
     height: 80%;
-    background-color: #fdfd96;
+    background-color: rgb(230, 230, 230);
     display: flex;
     justify-content: center;
     align-items: right;
@@ -46,4 +46,12 @@ body, html {
     z-index: 1; /* Coloca o vídeo em uma camada superior para que o botão seja exibido na parte superior */
 
   }
-
+  input#botton {
+    margin: 10% auto 10%;
+  }
+  p {
+    font-size: 10pt;
+  }
+  h1#titulo {
+    margin-left: 18%;
+  }
