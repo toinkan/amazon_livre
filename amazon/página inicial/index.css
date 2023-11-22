@@ -1,0 +1,124 @@
+body{
+    margin-left: 0
+}
+header {
+    margin:-25 -7 auto -7;
+    background-color: #FFD700;
+    height: 100px;
+}
+header h1 {
+    float: left;
+    margin: 30px;
+}
+.group {
+    display: flex;
+    line-height: 28px;
+    position: relative;
+    padding-top: 30px;
+    margin: 0 0 auto;
+   }
+.input {
+    width: 500px;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(234,76,137,0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   }
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+    margin: 11px auto;
+   }
+#caixa {
+    height: 50px;
+    width: 500px;
+    margin-top: 25px;
+    font-size:20px;
+}
+#caixa::placeholder{
+    font-size: 20px;
+}
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100px;
+  height: 45px;
+  border: none;
+  border-radius: 30%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: #eed236;
+  margin: 40px 75px auto;
+}
+
+.text {
+  width: 100px;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  font-weight: 600;
+
+}
+.Btn:active {
+  transform: translate(2px ,2px);
+}
+#cabeca {
+    display: flex; /* Torna o contêiner um flex container */
+    align-items: center; /* Alinha verticalmente os elementos ao centro */
+}
+#cabeca h1 {
+    margin-right: 20px;
+    margin-left: 5px;
+}
+#nav{
+    margin-left: 0;
+    width: 300px;
+    height: 100%;
+    float: left;
+    background-color: #FFD700;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+#principal {
+    height: 100%;
+    background-color: lightgrey;
+}
+.produto {
+    width:20%; /* Define a largura desejada para cada produto */
+    display: inline-block; /* Torna as divs produtos exibidas em linha */
+    margin: 20px; /* Adiciona margens entre os produtos para espaçamento */
+    text-align: center; /* Centraliza o conteúdo dentro de cada produto */
+}
+.produto img {
+    max-width: 100%; /* Garante que a imagem não se estenda além da largura do contêiner */
+    border: 2px solid black
+}
+a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+
+p#latera a{
+    margin: 10px;
+}
