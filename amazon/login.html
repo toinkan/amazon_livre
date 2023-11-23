@@ -15,21 +15,39 @@
               </video>
         </div>
         <div id = "lateral">
+            <div id="cadastro">
             <div id = "login_box">
                 <form id="search" action="" method="get" accept-charset="utf-8">
-                    <h1 id="titulo">entrar</h1>
+                    <h1 id="titulo">Entrar</h1>
                     <p>Login</p>
-                    <input id = "login" type="text" name="name" id="log in" placeholder="Nome" />
+                    <input id = "usuario" type="text" name="name" placeholder="Nome" />
                     <p>Senha</p>
-                    <input id = "senha" type="password" name="password" id="password" placeholder="Senha" />
+                    <input id = "senha" type="password" name="password" placeholder="Senha" />
                     <br/>
-                    <a href="página inicial/index.html"><input type="button" name="enviar" id="botton" value="Enviar" /></a>
+                    <input type="checkbox" name="longado" id="longado">
+                    <label for="longado" id="long">manter-me logado</label>
                     <br>
-                    <a href="creditos/creditos.html"><input type="button" value="créditos"></a>
+                    <input type="button" name="enviar" id="botton" value="Enviar" onclick="login()"/>
+                    <br>
                 </form>
             </div>
+            <a href="creditos/creditos.html"><button id="creditos">créditos</button></a>
+            <p id="conta">ainda não tem conta? <a href="#">cadastre-se</a></p>  
+        </div>
         </div>
     </div>
-    <script src=""></script>
+    <script>
+        function login() {
+            var username = document.getElementById('usuario').value;
+            var password = document.getElementById('senha').value;
+            
+            if (username === '123' && password === '123') {
+                window.location.replace('página inicial/index.html')
+            }
+            else {
+                alert('login ou senha incorretos. tente novamente')
+            }
+        }
+    </script>
 </body>
 </html>

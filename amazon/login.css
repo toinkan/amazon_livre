@@ -11,18 +11,14 @@ body, html {
 
 }
 #lateral{
-
     width: 400px;
     height: 100vh;
     float: right;
     background-color: #FFD700;
-    border: 2px solid black;
-    border-right: 0px;
     box-shadow: -3px -3px 5px 0px rgba(0, 0, 0, 0.5);
     display: flex;
-      justify-content: center;
-      align-items: center;
-
+    justify-content: center;
+    align-items: center;
 }
 
 #images{
@@ -31,11 +27,22 @@ body, html {
 }
 #login_box{
     width: 350px;
-    height: 80%;
+    height: 85%;
     background-color: rgb(230, 230, 230);
     display: flex;
     justify-content: center;
     align-items: right;
+}
+
+#cadastro{
+  width: 350px;
+  height: 80%;
+  background-color: rgb(210, 210, 210);
+}
+
+p#conta {
+  float: right;
+  margin-right: 4%;
 }
 
 #video {
@@ -46,12 +53,25 @@ body, html {
     z-index: 1; /* Coloca o vídeo em uma camada superior para que o botão seja exibido na parte superior */
 
   }
+  input#longado {
+    margin: 10% auto;
+  }
   input#botton {
-    margin: 10% auto 10%;
+    margin: 0 auto 10%;
   }
   p {
     font-size: 10pt;
+    margin-bottom: 0;
   }
   h1#titulo {
     margin-left: 18%;
+  }
+  button#creditos {
+    margin:3% 5% auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  label#long {
+    font-size: 10pt;
   }

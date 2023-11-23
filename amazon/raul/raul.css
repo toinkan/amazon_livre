@@ -168,6 +168,7 @@ button:active {
   color: #FFD700;
   transition: color 0.3s;
 }
+
 .container input {
   position: absolute;
   opacity: 0;
